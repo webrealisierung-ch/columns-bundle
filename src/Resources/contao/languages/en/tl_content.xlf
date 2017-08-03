@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+    <file datatype="php" original="src/Resources/contao/languages/en/tl_content.php" source-language="en">
+        <body>
+            <trans-unit id="tl_content.content_width_legend">
+                <source>Content Width Settings</source>
+            </trans-unit>
+            <trans-unit id="tl_content.content_width.0">
+                <source>Content width</source>
+            </trans-unit>
+            <trans-unit id="tl_content.content_width.1">
+                <source>Select the desired width of the content element in percent.</source>
+            </trans-unit>
+            <trans-unit id="tl_content.full.0">
+                <source>100%</source>
+            </trans-unit>
+            <trans-unit id="tl_content.full.1">
+                <source>The content element is 100% width.</source>
+            </trans-unit>
+            <trans-unit id="tl_content.three-quarters.0">
+                <source>75%</source>
+            </trans-unit>
+            <trans-unit id="tl_content.three-quarters.1">
+                <source>The content element is 75% width.</source>
+            </trans-unit>
+            <trans-unit id="tl_content.two-thirds.0">
+                <source>66%</source>
+            </trans-unit>
+            <trans-unit id="tl_content.two-thirds.1">
+                <source>The content element is 66% width.</source>
+            </trans-unit>
+            <trans-unit id="tl_content.half.0">
+                <source>50%</source>
+            </trans-unit>
+            <trans-unit id="tl_content.half.1">
+                <source>The content element is 50% width.</source>
+            </trans-unit>
+            <trans-unit id="tl_content.third.0">
+            <source>33%</source>
+        </trans-unit>
+            <trans-unit id="tl_content.third.1">
+                <source>The content element is 33% width.</source>
+            </trans-unit>
+            <trans-unit id="tl_content.quarter.0">
+                <source>25%</source>
+            </trans-unit>
+            <trans-unit id="tl_content.quarter.1">
+                <source>The content element is 25% width.</source>
+            </trans-unit>
+            <trans-unit id="tl_content.content_orientation.0">
+                <source>Content orientation</source>
+            </trans-unit>
+            <trans-unit id="tl_content.content_orientation.1">
+                <source>Select the desired orientation of the content element.</source>
+            </trans-unit>
+            <trans-unit id="tl_content.left.0">
+                <source>Left</source>
+            </trans-unit>
+            <trans-unit id="tl_content.left.1">
+                <source>The content will align to the left side.</source>
+            </trans-unit>
+            <trans-unit id="tl_content.center.0">
+            <source>Center</source>
+        </trans-unit>
+            <trans-unit id="tl_content.center.1">
+                <source>The content will be centered.</source>
+            </trans-unit>
+            <trans-unit id="tl_content.right.0">
+                <source>Right</source>
+            </trans-unit>
+            <trans-unit id="tl_content.right.1">
+                <source>The content will align to the right side.</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

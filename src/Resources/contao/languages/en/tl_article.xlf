@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+    <file datatype="php" original="src/Resources/contao/languages/en/tl_article.php" source-language="en">
+        <body>
+            <trans-unit id="tl_article.article_width_legend">
+                <source>Article width settings</source>
+            </trans-unit>
+            <trans-unit id="tl_article.article_fullwidth.0">
+            <source>Show article full width</source>
+        </trans-unit>
+            <trans-unit id="tl_article.article_fullwidth.1">
+                <source>Article will be displayed over the full browser width.</source>
+            </trans-unit>
+            <trans-unit id="tl_article.article_bg_color.0">
+                <source>Article background color</source>
+            </trans-unit>
+            <trans-unit id="tl_article.article_bg_color.1">
+                <source>Select the article background color.</source>
+            </trans-unit>
+            <trans-unit id="tl_article.color1.0">
+                <source>Red</source>
+            </trans-unit>
+            <trans-unit id="tl_article.color1.1">
+                <source>Red article background color.</source>
+            </trans-unit>
+            <trans-unit id="tl_article.color2.0">
+                <source>Blue</source>
+            </trans-unit>
+            <trans-unit id="tl_article.color2.1">
+                <source>Blue article background color.</source>
+            </trans-unit>
+            <trans-unit id="tl_article.color3.0">
+                <source>Green</source>
+            </trans-unit>
+            <trans-unit id="tl_article.color3.1">
+                <source>Green article background color.</source>
+            </trans-unit>
+            <trans-unit id="tl_article.color4.0">
+                <source>Yellow</source>
+            </trans-unit>
+            <trans-unit id="tl_article.color4.1">
+                <source>Yellow article background color.</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
