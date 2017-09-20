@@ -51,9 +51,6 @@ class WrColumnsService extends \Frontend
         if(strlen($objData->article_fullwidth)){
             $arrCSS[1] =  trim($arrCSS[1] . " full");
         }
-        if(strlen($objData->in_onepage) && strlen($objData->published)){
-            $arrCSS[0] =  trim($arrCSS[0] . " " . $objData->alias);
-        }
         $arrCSS[1] = trim($arrCSS[1] . " " . $objData->article_bg_color);
         $objData->cssID = serialize($arrCSS);
     }

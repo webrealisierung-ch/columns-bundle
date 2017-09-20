@@ -10,7 +10,7 @@
  * @author Daniel Steuri <mail@webrealisierung.ch>
  */
 
-$GLOBALS['TL_DCA']['tl_article']['palettes']['default']=preg_replace('/{expert_legend:hide}/','{article_width_legend:hide},article_fullwidth,article_bg_color;{expert_legend}',$GLOBALS['TL_DCA']['tl_article']['palettes']['default']);
+$GLOBALS['TL_DCA']['tl_article']['palettes']['default']=preg_replace('/{expert_legend:hide}/','{article_width_legend:hide},article_fullwidth,article_bg_color;{expert_legend:hide}',$GLOBALS['TL_DCA']['tl_article']['palettes']['default']);
 
 $GLOBALS['TL_DCA']['tl_article']['fields']['article_fullwidth'] = array
 (
