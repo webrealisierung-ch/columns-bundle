@@ -15,12 +15,15 @@ class WrColumnsService extends \Frontend
     private $contr_width = 0;
     private $contr_pid;
     private $clear="";
+
     public function addContentWidth($objElement, $strBuffer){
 
         if($this->contr_pid && $this->contr_pid !== $objElement->pid){
             $this->contr_width=0;
         }
+
         $this->contr_pid = $objElement->pid;
+
         if($objElement->content_width==="full") {
             $this->contr_width = 0;
             $this->clear="wr_clear";
@@ -49,7 +52,7 @@ class WrColumnsService extends \Frontend
     public function addArticleWidth($objData){
         $arrCSS = deserialize($objData->cssID, true);
         if(strlen($objData->article_fullwidth)){
-            $arrCSS[1] =  trim($arrCSS[1] . " full");
+            $arrCSS[1] =  trim($arrCSS[1] . " mod_article--fullwidth full");
         }
         $arrCSS[1] = trim($arrCSS[1] . " " . $objData->article_bg_color);
         $objData->cssID = serialize($arrCSS);
@@ -66,4 +69,3 @@ class WrColumnsService extends \Frontend
         }
     }
 }
-
